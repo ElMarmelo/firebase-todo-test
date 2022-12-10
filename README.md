@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+# Introduction
+I'm not a great programmer being honest, the purpose of this small applet was to learn basic CRUD operations in firebase using Cloud Firestore as a database, and Tailwind CSS as an UI library
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to start
+Everything is ready to go except the **firebase.js** file, as this project uses Firebase for the backend I cannot provide my private keys for the project, in this case you should head to [Firebase's console](https://console.firebase.google.com/), and get your own credentials, set them in your own .env file, you can also refer to the [Example .md file I provided (Even though it might be mediocre)](https://github.com/ElMarmelo/firebase-todo-test/blob/master/.env.example) and just replace the values for the ones you're going to use (*Remember to remove the .example from the filename!*)
 
-## Available Scripts
+### Stuff I used
 
-In the project directory, you can run:
+- Create React App to set up the project quickly
+- Libraries: ReactJS (Mainly useState hook), TailwindCSS (Setting up the look for the different components in the app)
+- Backend: Firebase FireStorage (Backend, database creation for basic CRUD operations)
+- Git & Github: Self explanatory
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Will I update this ever again?
+- Probably not, this was just a short test made in under two or three hours to learn some basic firebase, .env management and react useState hooks
